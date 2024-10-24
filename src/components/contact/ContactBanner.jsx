@@ -5,7 +5,7 @@ const ContactBanner = ({ scrollToMapForm }) => {
   return (
     <div className="relative flex-1 px-5 py-24 lg:px-8">
       <div
-        className="absolute inset-0"
+        className="absolute inset-0 "
         style={{
           backgroundImage: `url(${contactBanner})`,
           backgroundSize: 'cover',

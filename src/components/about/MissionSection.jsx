@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { FaShieldAlt } from "react-icons/fa"; // Importing the shield icon
+import { FaBullseye } from "react-icons/fa6";
 
 const MissionSection = () => {
   useEffect(() => {
@@ -13,9 +14,12 @@ const MissionSection = () => {
     >
       <div className="flex items-center justify-center h-full bg-black bg-opacity-50">
         <div className="text-center p-6 text-white max-w-4xl">
-          <h2 className="text-4xl font-bold mb-4 text-customGolden">
-            OUR MISSION
-          </h2>
+          <div className="text-4xl font-bold mb-4 text-customGolden">
+            <div className="flex justify-center items-center space-x-5">
+              <div><FaBullseye/></div>
+            <div>OUR MISSION</div>
+            </div>
+          </div>
           <p className="mb-4 font-semibold md:text-lg text-base ">
             At Swayz Security Services, our mission is to strive towards
             perfection and be recognized as the leader in providing

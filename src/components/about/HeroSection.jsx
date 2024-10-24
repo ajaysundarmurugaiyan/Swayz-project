@@ -4,7 +4,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <div
-      className="relative mx-auto mt-10 max-w-7xl font-semibold text-customGrey px-4 sm:px-6 lg:px-8 pt-10 pb-16 text-center lg:pt-20 bg-cover bg-center"
+      className="relative mx-auto font-semibold text-customGrey px-4 sm:px-6 lg:px-8 pt-10 pb-16 text-center lg:pt-20 bg-cover bg-center"
       style={{
         backgroundImage: "url('https://thumbs.dreamstime.com/b/house-under-construction-blueprints-building-project-53360048.jpg')", // Replace with your image URL
       }}
@@ -55,7 +55,7 @@ const HeroSection = () => {
       <div className="mt-12 flex flex-col justify-center gap-y-5 sm:mt-10 sm:flex-row sm:gap-y-0 sm:gap-x-6 relative z-10">
         <a
           className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-customGolden text-white hover:bg-customGolden hover:text-slate-100 active:bg-slate-800 active:text-slate-300"
-          href="/contact"
+          href="/security"
         >
           <svg
             stroke="currentColor"

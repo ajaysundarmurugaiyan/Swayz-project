@@ -11,6 +11,7 @@ import AboutUs from '../../components/home/About';
 import ServicesSection from '../../components/home/ServicesSection';
 import Parallax from '../../components/home/Parallex';
 import ServiceCard from '../../components/home/ServicesCard';
+import Business from '../../components/home/Business';
 // import CardOverlap from '../../components/home/CardOverlap';
 
 const Home = () => {
@@ -31,11 +32,11 @@ const Home = () => {
       <section>
         <ScrollSections/>
       </section>
-      <section style={{ marginBottom: '50px' }}>
+      <section style={{ }}>
         <Parallax/>
       </section>
 
-      <section style={{ marginBottom: '50px' }}>
+      <section style={{ marginBottom: '100px' }}>
         <ServiceCard/>
       </section>
 
@@ -48,8 +49,9 @@ const Home = () => {
       </section>
 
       {/* Add more spacing here if necessary */}
-      <section style={{ marginBottom: '50px' }}>
-        <NotFoundPage/>
+      <section style={{}}>
+        {/* <NotFoundPage/> */}
+        <Business/>
       </section>
 
     </div>

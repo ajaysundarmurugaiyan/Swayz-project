@@ -47,7 +47,7 @@ const VisionMissionValues = () => {
   ];
 
   return (
-    <section className="pb-12 -mt-10 md:mt-0 bg-white sm:pb-16 lg:pb-20">
+    <section className="pb-12 mt-10 md:mt-0 bg-white sm:pb-16 lg:pb-20">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-xl md:text-4xl font-bold leading-tight text-customGolden">

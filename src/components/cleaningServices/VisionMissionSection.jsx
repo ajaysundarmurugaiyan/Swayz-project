@@ -1,7 +1,8 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { FcOvertime, FcPositiveDynamic } from "react-icons/fc";
+import { LuCalendarClock } from "react-icons/lu";
+import { GoGoal } from "react-icons/go";
 
 // Register GSAP ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
@@ -83,8 +84,9 @@ const VisionMissionSection = () => {
       {/* 2nd section */}
       <div className="bg-customGrey1">
         <div className="px-5 md:px-10 py-16">
-          <div className="font-bold uppercase md:text-3xl text-xl section-title"> {/* Added class for targeting */}
-            Our Goals and Values
+          <div className="font-bold uppercase text-customGolden  md:text-3xl text-xl section-title">
+            <div className="flex items-center justify-center">Our Goals and Values</div>
+            <div className="mx-auto mt-2 mb-5 w-[120px] h-[2.5px] bg-customGolden rounded-full"></div>
           </div>
           <div className="md:text-base text-sm font-opensans text-[#808080] font-semibold section-description"> {/* Added class for targeting */}
             Committed to excellence, our vision drives us to set the standard in
@@ -100,7 +102,7 @@ const VisionMissionSection = () => {
           className="flex flex-col p-6 transition-all duration-500 bg-white border border-gray-200 rounded-lg shadow-lg hover:shadow-xl lg:flex-row lg:space-y-0 lg:space-x-6"
         >
           <div ref={missionIconRef}>
-            <FcOvertime className="text-6xl text-customGolden" />
+            <LuCalendarClock className="text-6xl text-customGolden" />
           </div>
           <div className="flex-1">
             <h5 ref={missionTextRef} className="mb-3 text-lg text-customGolden uppercase font-bold lg:text-2xl">
@@ -122,7 +124,7 @@ const VisionMissionSection = () => {
           className="flex flex-col p-6 transition-all duration-500 bg-white border border-gray-200 rounded-lg shadow-lg hover:shadow-xl lg:flex-row lg:space-y-0 lg:space-x-6"
         >
           <div ref={visionIconRef}>
-            <FcPositiveDynamic className="text-5xl text-customGolden" />
+            <GoGoal  className="text-5xl text-customGolden" />
           </div>
           <div className="flex-1">
             <h5 ref={visionTextRef} className="mb-3 text-lg text-customGolden uppercase font-bold lg:text-2xl">

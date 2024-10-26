@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import image from '/image.avif';
 
-const Business = () => {
+const   Business = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false, amount: 0.5 }); 
 
@@ -34,7 +34,7 @@ const Business = () => {
           </motion.div>
 
           <motion.div
-            className="content bg-white p-2 pt-8 md:p-12 pb-12 lg:max-w-lg w-full lg:absolute top-48 right-5 z-20"
+            className="content bg-white p-2 pt-8 md:p-12 pb-12 lg:max-w-lg w-full lg:absolute top-48 border-l-8 border-customGolden right-5 z-20"
             initial={{ opacity: 0, x: 100 }}
             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 100 }}
             transition={{ duration: 0.7, ease: "easeInOut" }}

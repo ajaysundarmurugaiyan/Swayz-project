@@ -17,7 +17,7 @@ import {
 const NextArrow = ({ onClick }) => {
   return (
     <div
-      className="absolute top-1/2 right-[-25px] text-xl transform -translate-y-1/2 z-10 text-customGolden p-4 cursor-pointer"
+      className="absolute top-1/2 right-[-25px] text-xl transform -translate-y-1/2 z-10 text-customGolden p-5 cursor-pointer"
       onClick={onClick}
     >
       <IoMdArrowDropright className="w-10 h-auto" />
@@ -28,7 +28,7 @@ const NextArrow = ({ onClick }) => {
 const PrevArrow = ({ onClick }) => {
   return (
     <div
-      className="absolute top-1/2 left-[-25px] text-xl transform -translate-y-1/2 z-10 text-customGolden p-4 cursor-pointer"
+      className="absolute top-1/2 left-[-25px] text-xl transform -translate-y-1/2 z-10 text-customGolden p-5 cursor-pointer"
       onClick={onClick}
     >
       <IoMdArrowDropleft className="w-10 h-auto" />
@@ -77,7 +77,7 @@ const ServiceCard = () => {
         <Slider {...settings}>
           {/* Step 1 */}
           <div className="p-2 hover:cursor-pointer">
-            <div className="border rounded-3xl p-4 shadow-lg bg-white w-11/12 lg:w-4/5 h-[24vh] flex flex-col justify-between mx-auto">
+            <div className="border rounded-3xl p-5 shadow-lg bg-white w-11/12 lg:w-5/6 h-[26vh] flex flex-col justify-between mx-auto">
               <div className="flex justify-center items-center mb-2">
                 <CgNotes size={35} className="text-customGolden" />
                 <div className="ml-2 md:text-lg text-md font-bold">STEP 1</div>
@@ -94,7 +94,7 @@ const ServiceCard = () => {
 
           {/* Step 2 */}
           <div className="p-2 hover:cursor-pointer">
-            <div className="border rounded-3xl p-4 shadow-lg bg-white w-11/12 lg:w-4/5 h-[24vh] flex flex-col justify-between mx-auto">
+            <div className="border rounded-3xl p-5 shadow-lg bg-white w-11/12 lg:w-5/6 h-[26vh] flex flex-col justify-between mx-auto">
               <div className="flex justify-center items-center mb-2">
                 <FaFlask size={35} className="text-customGolden" />
                 <div className="ml-2 md:text-lg text-md font-bold">STEP 2</div>
@@ -110,7 +110,7 @@ const ServiceCard = () => {
 
           {/* Step 3 */}
           <div className="p-2 hover:cursor-pointer">
-            <div className="border rounded-3xl p-4 shadow-lg bg-white w-11/12 lg:w-4/5 h-[24vh] flex flex-col justify-between mx-auto">
+            <div className="border rounded-3xl p-5 shadow-lg bg-white w-11/12 lg:w-5/6 h-[26vh] flex flex-col justify-between mx-auto">
               <div className="flex justify-center items-center mb-2">
                 <FaShower size={35} className="text-customGolden" />
                 <div className="ml-2 md:text-lg text-md font-bold">STEP 3</div>
@@ -127,7 +127,7 @@ const ServiceCard = () => {
 
           {/* Step 4 */}
           <div className="p-2 hover:cursor-pointer">
-            <div className="border rounded-3xl p-4 shadow-lg bg-white w-11/12 lg:w-4/5 h-[24vh] flex flex-col justify-between mx-auto">
+            <div className="border rounded-3xl p-5 shadow-lg bg-white w-11/12 lg:w-5/6 h-[26vh] flex flex-col justify-between mx-auto">
               <div className="flex justify-center items-center mb-2">
                 <FaBroom size={35} className="text-customGolden" />
                 <div className="ml-2 md:text-lg text-md font-bold">STEP 4</div>
@@ -143,7 +143,7 @@ const ServiceCard = () => {
 
           {/* Step 5 */}
           <div className="p-2 hover:cursor-pointer">
-            <div className="border rounded-3xl p-4 shadow-lg bg-white w-11/12 lg:w-4/5 h-[24vh] flex flex-col justify-between mx-auto">
+            <div className="border rounded-3xl p-5 shadow-lg bg-white w-11/12 lg:w-5/6 h-[26vh] flex flex-col justify-between mx-auto">
               <div className="flex justify-center items-center mb-2">
                 <FaFan size={35} className="text-customGolden" />
                 <div className="ml-2 md:text-lg text-md font-bold">STEP 5</div>
@@ -159,7 +159,7 @@ const ServiceCard = () => {
 
           {/* Step 6 */}
           <div className="p-2 hover:cursor-pointer">
-            <div className="border rounded-3xl p-4 shadow-lg bg-white w-11/12 lg:w-4/5 h-[24vh] flex flex-col justify-between mx-auto">
+            <div className="border rounded-3xl p-5 shadow-lg bg-white w-11/12 lg:w-5/6 h-[26vh] flex flex-col justify-between mx-auto">
               <div className="flex justify-center items-center mb-2">
                 <FaSearch size={35} className="text-customGolden" />
                 <div className="ml-2 md:text-lg text-md font-bold">STEP 6</div>
@@ -175,7 +175,7 @@ const ServiceCard = () => {
 
           {/* Step 7 */}
           <div className="p-2 hover:cursor-pointer">
-            <div className="border rounded-3xl p-4 shadow-lg bg-white w-11/12 lg:w-4/5 h-[24vh] flex flex-col justify-between mx-auto">
+            <div className="border rounded-3xl p-5 shadow-lg bg-white w-11/12 lg:w-5/6 h-[26vh] flex flex-col justify-between mx-auto">
               <div className="flex justify-center items-center mb-2">
                 <FaShippingFast size={35} className="text-customGolden" />
                 <div className="ml-2 md:text-lg text-md font-bold">STEP 7</div>

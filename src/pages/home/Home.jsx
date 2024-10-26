@@ -12,48 +12,53 @@ import ServicesSection from '../../components/home/ServicesSection';
 import Parallax from '../../components/home/Parallex';
 import ServiceCard from '../../components/home/ServicesCard';
 import Business from '../../components/home/Business';
+import VisionMissionValues from '../../components/home/VissionMissionValues';
 // import CardOverlap from '../../components/home/CardOverlap';
 
 const Home = () => {
   return (
-    <div > {/* Adds padding around the entire section */}
-      <section style={{ marginBottom: '50px' }}> {/* Section with spacing */}
-        <Main2/>
-      </section>  
-
-      <section> {/* Section with spacing */}
-        <AboutUs/>
-      </section>    
-      <ServicesSection/>  
-
-      <section style={{ marginBottom: '50px' }}>
-        <CleaningHomePage/>
+    <div>
+      {" "}
+      {/* Adds padding around the entire section */}
+      <section className="overflow-x-hidden" style={{ marginBottom: "50px" }}>
+        {" "}
+        {/* Section with spacing */}
+        <Main2 />
+      </section>
+      <section className="overflow-x-hidden">
+        {" "}
+        {/* Section with spacing */}
+        <AboutUs />
+      </section>
+      <section className="overflow-x-hidden">
+        <ServicesSection />
+      </section>
+      <section className="overflow-x-hidden" style={{ marginTop: "100px"}}>
+        <VisionMissionValues />
+      </section>
+      <section className="overflow-x-hidden" style={{ marginBottom: "50px" }}>
+        <CleaningHomePage />
       </section>
       <section>
-        <ScrollSections/>
+        <ScrollSections />
       </section>
-      <section style={{ }}>
-        <Parallax/>
+      <section className="overflow-x-hidden" style={{}}>
+        <Parallax />
       </section>
-
-      <section style={{ marginBottom: '100px' }}>
-        <ServiceCard/>
+      <section className="overflow-x-hidden" style={{ marginBottom: "100px" }}>
+        <ServiceCard />
       </section>
-
-      <section style={{ marginBottom: '50px' }}>
-        <Construction/>
+      <section className="overflow-x-hidden" style={{ marginBottom: "50px" }}>
+        <Construction />
       </section>
-
-      <section style={{ marginBottom: '50px' }}>
-        <Main1/>
+      <section className="overflow-x-hidden" style={{ marginBottom: "50px" }}>
+        <Main1 />
       </section>
-
       {/* Add more spacing here if necessary */}
-      <section style={{}}>
+      <section className="overflow-x-hidden" style={{}}>
         {/* <NotFoundPage/> */}
-        <Business/>
+        <Business />
       </section>
-
     </div>
   );
 }

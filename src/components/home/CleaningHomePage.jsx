@@ -98,7 +98,7 @@ const CleaningHomePage = () => {
 
   return (
     <>
-      <div className="md:px-10 px-5 text-center mt-32 text-customGolden md:text-3xl text-xl font-bold">
+      <div className="md:px-10 px-5 text-center text-customGolden md:text-3xl text-xl font-bold">
         OUR SERVICES
         <div className="mx-auto mt-2 w-[120px] h-[2.5px] bg-customGolden rounded-full"></div>
       </div>
@@ -153,7 +153,7 @@ const CleaningHomePage = () => {
           {/* Foreground image */}
           <div className="relative rounded-xl shadow-lg left-[19%] overflow-hidden w-96 h-[65vh]">
             <img
-              src="/cleaningImages/PressureCleaning.jpg" // Replace with actual image path
+              src="/cleaningImages/cleaning.jpeg" // Replace with actual image path
               alt="Pressure Cleaning"
               className="w-full h-full object-cover"
             />
@@ -163,7 +163,7 @@ const CleaningHomePage = () => {
           {/* Background image */}
           <div className="rounded-xl absolute -top-[1%] right-[14%] shadow-lg overflow-hidden w-96 h-[65vh]">
             <img
-              src="/cleaningImages/PressureCleaning.jpg" // Replace with actual image path
+              src="/cleaningImages/cleaning.jpeg" // Replace with actual image path
               alt="Pressure Cleaning"
               className="w-full h-full object-cover"
             />

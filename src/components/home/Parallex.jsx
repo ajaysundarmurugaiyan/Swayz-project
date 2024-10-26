@@ -55,7 +55,7 @@ const Parallax = () => {
         {/* Optional dark overlay for better contrast */}
         <div className="absolute inset-0 bg-black opacity-70 brightness-75"></div>
 
-        <h1 className="md:text-3xl text-2xl uppercase font-semibold text-center text-white mb-12 relative z-10">
+        <h1 className="text-xl md:text-4xl font-bold leading-tight uppercase text-center text-white mb-12 relative z-10">
           Elevate Your <span className="text-customGolden">Cleanliness with Our Services</span>  
         </h1>
 

@@ -45,7 +45,7 @@ const Main2 = () => {
         />
         
         {/* Overlay Div */}
-        <div className="absolute inset-0 h-full bg-black opacity-60 rounded-lg"></div>
+        <div className="absolute inset-0 h-full bg-black opacity-80 rounded-lg"></div>
 
         {/* Content */}
         <motion.div

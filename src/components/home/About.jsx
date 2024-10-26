@@ -72,9 +72,9 @@ const AboutUs = () => {
 
         {/* Text Section */}
         <div ref={textRef} className="opacity-0 transform translate-x-[100px]">
-        <div className="md:px-10 px-5 text-center mb-5 text-customGolden md:text-3xl text-xl font-bold">
+        <div className="md:px-0 px-5 text-center lg:text-start mb-5 text-customGolden md:text-3xl text-xl font-bold">
         ABOUT SWAYZ
-        <div className="mx-auto mt-2 w-[120px] h-[2.5px] bg-customGolden rounded-full"></div>
+        {/* <div className="mx-auto lg:mx-10 mt-2 w-[120px] h-[2.5px] bg-customGolden rounded-full"></div> */}
       </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
             Swayz Construction: Your Premier Cleaning Services

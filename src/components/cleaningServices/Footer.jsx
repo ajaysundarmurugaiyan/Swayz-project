@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "/cleaningImages/logo.jpg";
+import logo from "/cleaningImages/logo.png";
 import { BsTelephone } from "react-icons/bs";
 import { TfiWorld } from "react-icons/tfi";
 import { ImLocation } from "react-icons/im";

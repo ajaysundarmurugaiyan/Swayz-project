@@ -1,4 +1,4 @@
-import logo from "../../assets/logo.jpeg";
+import logo from "../../../public/cleaningImages/logo.png";
 import about_1 from "../../assets/video2.mp4"; // Correct path to the video
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
@@ -98,7 +98,7 @@ const OverlayCopy = ({ subheading, heading }) => {
       <img
         src={logo}
         alt="Company Logo"
-        className="mb-4 h-24 w-auto"
+        className="mb-4 h-24 w-auto bg-white"
       />
       <p className="text-center uppercase text-xl text-customGolden my-5 font-bold md:text-4xl">{heading}</p>
       <p className="text-center text-lg font-normal md:text-xl px-2 md:px-20 lg:px-40">

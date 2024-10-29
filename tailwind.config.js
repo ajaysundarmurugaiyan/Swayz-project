@@ -29,6 +29,7 @@ export default {
         rotateNeg360: 'rotateNeg360 1s linear infinite',
         rotate180: 'rotate180 1s linear infinite',
         rotateNeg180: 'rotateNeg180 1s linear infinite',
+        'slide-in': 'slide-in 0.5s ease-out forwards',
       },
       keyframes: {
         rotate360: {
@@ -47,6 +48,7 @@ export default {
           '0%': { transform: 'rotate(0deg)' },
           '100%': { transform: 'rotate(-180deg)' },
         },
+
       },
     },
   },

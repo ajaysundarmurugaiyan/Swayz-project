@@ -16,32 +16,32 @@ const MissionSection = () => {
         <div className="text-center p-6 text-white max-w-4xl">
           <div className="text-4xl font-bold mb-4 text-customGolden">
             <div className="flex justify-center items-center space-x-5">
-              <div><TbScanEye/></div>
-            <div>OUR VISION</div>
+              <div>
+                <TbScanEye />
+              </div>
+              <div>OUR VISION</div>
             </div>
           </div>
           <p className="mb-4 font-semibold md:text-lg text-base ">
-            At Swayz Security Services, our mission is to strive towards
-            perfection and be recognized as the leader in providing
-            comprehensive security solutions. Our commitment is to protect our
-            clients and their assets while ensuring a safe and secure
-            environment for individuals and businesses alike. We believe that
-            effective security requires a proactive approach.
+            Our vision is to be the leading provider of integrated solutions in
+            security, cleaning, construction, and energy sectors, recognized for
+            our commitment to excellence, innovation, and social responsibility.
           </p>
 
           <div className="text-4xl font-bold mb-4 text-customGolden">
             <div className="flex justify-center items-center space-x-5">
-              <div><FaBullseye/></div>
-            <div>OUR MISSION</div>
+              <div>
+                <FaBullseye />
+              </div>
+              <div>OUR MISSION</div>
             </div>
           </div>
           <p className="mb-4 font-semibold md:text-lg text-base">
-            Our team continuously evaluates risks and implements tailored
-            strategies to mitigate potential threats. We prioritize client
-            communication, ensuring that we understand their unique needs and
-            concerns. We strive to integrate eco-friendly practices in our
-            operations, ensuring that our security solutions not only protect
-            our clients but also respect the environment.
+            At Swayz Group, our mission is to empower communities through
+            excellence in security, cleaning, construction, and energy
+            solutions. We are dedicated to creating safer, cleaner, and more
+            sustainable environments where individuals and businesses can
+            thrive.
           </p>
         </div>
       </div>

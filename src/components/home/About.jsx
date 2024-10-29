@@ -62,7 +62,7 @@ const AboutUs = () => {
             <div className="absolute inset-0 bg-customGolden bg-opacity-90 mix-blend-multiply"></div>
           </div>
           <div className="rounded-lg absolute -top-[4%] lg:right-[10%] xl:right-[20%] shadow-lg overflow-hidden w-96 h-[65vh]">
-          <img
+            <img
               src="/cleaningImages/PressureCleaning.jpg" // Replace with your actual image path
               alt="Machine"
               className="w-full h-full object-cover"
@@ -72,21 +72,37 @@ const AboutUs = () => {
 
         {/* Text Section */}
         <div ref={textRef} className="opacity-0 transform translate-x-[100px]">
-        <div className="md:px-0 px-5 text-center lg:text-start mb-5 text-customGolden md:text-3xl text-xl font-bold">
-        ABOUT SWAYZ
-        {/* <div className="mx-auto lg:mx-10 mt-2 w-[120px] h-[2.5px] bg-customGolden rounded-full"></div> */}
-      </div>
+          <div className="md:px-0 px-5 text-center lg:text-start mb-5 text-customGolden md:text-3xl text-xl font-bold">
+            SWAYZ GROUP
+            {/* <div className="mx-auto lg:mx-10 mt-2 w-[120px] h-[2.5px] bg-customGolden rounded-full"></div> */}
+          </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
-            Swayz Construction: Your Premier Cleaning Services
+            SAFEGUARDING, ENHANCING AND POWERING
           </h1>
           <p className="text-customGrey font-semibold md:text-base text-sm mb-6">
-            Welcome to Swayz, where we redefine professional cleaning services. Our innovative approach combines advanced technology with a dedication to cleanliness, delivering exceptional results every time. Experience the difference with our state-of-the-art cleaning solutions tailored to meet your needs.
+            At Swayz Group, we are dedicated to safeguarding, enhancing, and
+            powering communities across Gauteng, South Africa. With a strategic
+            focus on security services, cleaning solutions, construction
+            services, and the petroleum energy sector, we are committed to
+            delivering excellence in every aspect of our operations.
           </p>
-          <a href="/about">
-          <button className="bg-customGolden text-white py-2 px-6 rounded-lg shadow hover:bg-opacity-80 transition duration-300">
-            Read more
-          </button>
-          </a>
+
+          <div className="flex justify-between w-5/6">
+            <div>
+              <a href="/about">
+                <button className="bg-customGolden text-white py-2 px-6 rounded-lg shadow hover:bg-opacity-80 transition duration-300">
+                  About us
+                </button>
+              </a>
+            </div>
+            <div>
+              <a href="/contact">
+                <button className="bg-black text-white py-2 px-6 rounded-lg shadow hover:bg-opacity-80 transition duration-300">
+                  Contact
+                </button>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

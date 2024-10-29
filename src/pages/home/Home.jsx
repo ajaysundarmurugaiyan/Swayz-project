@@ -4,7 +4,6 @@ import Main2 from '../../components/home/Main2';
 import Main1 from '../../components/home/Main1';
 import Accordion from '../../components/home/Accordian';
 import ScrollSections from '../../components/home/HorizontalScroll';
-// import StickySections from '../../components/home/StickySections';
 import Construction from '../../components/home/Construction';
 import NotFoundPage from '../../components/home/BusinessProfile';
 import AboutUs from '../../components/home/About';
@@ -13,6 +12,7 @@ import Parallax from '../../components/home/Parallex';
 import ServiceCard from '../../components/home/ServicesCard';
 import Business from '../../components/home/Business';
 import VisionMissionValues from '../../components/home/VissionMissionValues';
+import MainCard from '../../components/home/MainCard';
 // import CardOverlap from '../../components/home/CardOverlap';
 
 const Home = () => {
@@ -36,8 +36,11 @@ const Home = () => {
       <section className="overflow-x-hidden" style={{ marginTop: "100px"}}>
         <VisionMissionValues />
       </section>
-      <section className="overflow-x-hidden" style={{ marginBottom: "50px" }}>
+      <section className="overflow-x-hidden" style={{}}>
         <CleaningHomePage />
+      </section>
+      <section className="overflow-x-hidden" style={{ marginBottom: "50px" }}>
+        <MainCard />
       </section>
       <section>
         <ScrollSections />

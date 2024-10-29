@@ -87,7 +87,7 @@ const AboutUs = () => {
             delivering excellence in every aspect of our operations.
           </p>
 
-          <div className="flex justify-between w-1/2">
+          <div className="flex justify-evenly md:justify-between md:w-3/5">
             <div>
               <a href="/about">
                 <button className="bg-customGolden text-white py-2 px-6 rounded-lg shadow hover:bg-opacity-80 transition duration-300">
